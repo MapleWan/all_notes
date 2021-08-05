@@ -61,4 +61,5 @@ TEMPLATES = [
 7. 运行`python manage.py runserver 0.0.0.0:8888`
 
 <hr>
+
 [django更多详情查看](https://www.runoob.com/django/django-tutorial.html)
