@@ -1,1 +1,30 @@
-笔记笔记
+- learn_note
+  - git_note：git笔记
+    - [git_basic](./learn_note/git_note/git_basic.md)
+  - graph_note：图笔记
+    - [graph_embedding](./learn_note/graph_note/2_graph_embedding.md)
+    - [graph_neural_network](./learn_note/graph_note/3_graph_neural_network.md)
+    - [gnn_review](./learn_note/graph_note/gnn_review.md)
+  - linux_config：linux笔记
+    - [shadowsocks-config](./learn_note/linux_config/shadowsocks-config.md)
+  - python_note：python笔记
+    - [命令行参数](./learn_note/python_note/命令行参数.md)
+    - [django_basic](./learn_note/python_note/django_basic.md)
+    - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)
+
+- paper_md：论文笔记
+  - graph：图的论文
+    - [pdf-gnn综述](./paper_md/graph/gnn_review.pdf)
+    - [pdf-gnnPPT](./paper_md/graph/GNN-basic-powerpoint.pdf)
+  - paper_files：论文的文件
+    - String_similarity
+      - cobs-refs
+        - [bloofi](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
+        - [k-mer_review](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
+        - [k-mer_review_Supplemental](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
+      - [cobs](paper_md/paper_files/string_similarity/cobs.pdf)
+  - string_similarity：字符串相似性论文
+    - cobs-refs
+      - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
+    - [cobs](./paper_md/string_similarity/cobs.md)
+
