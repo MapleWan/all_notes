@@ -1,3 +1,5 @@
+**本库用于个人笔记记录，有直接截图保存他人博客，侵删**
+
 - learn_note
   - git_note：git笔记
     - [git_basic](./learn_note/git_note/git_basic.md)
@@ -27,4 +29,3 @@
     - cobs-refs
       - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
     - [cobs](./paper_md/string_similarity/cobs.md)
-
