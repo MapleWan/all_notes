@@ -14,15 +14,15 @@
 
 - paper_md：论文笔记
   - graph：图的论文
-    - [pdf-gnn综述](./paper_md/graph/gnn_review.pdf)
-    - [pdf-gnnPPT](./paper_md/graph/GNN-basic-powerpoint.pdf)
+    - [gnn综述.pdf](./paper_md/graph/gnn_review.pdf)
+    - [gnnPPT.pdf](./paper_md/graph/GNN-basic-powerpoint.pdf)
   - paper_files：论文的文件
     - String_similarity
       - cobs-refs
-        - [bloofi](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
-        - [k-mer_review](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
-        - [k-mer_review_Supplemental](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
-      - [cobs](paper_md/paper_files/string_similarity/cobs.pdf)
+        - [pdf-bloofi.pdf](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
+        - [pdf-k-mer_review.pdf](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
+        - [k-mer_review_Supplemental.pdf](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
+      - [cobs.pdf](paper_md/paper_files/string_similarity/cobs.pdf)
   - string_similarity：字符串相似性论文
     - cobs-refs
       - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
