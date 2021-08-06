@@ -1,3 +1,9 @@
+**2021.08.07：**
+
+**目标：明年这个时间找到深度学习算法实习，达到毕业要求（论文）**
+
+<hr>
+
 - [x] node embedding 与 edge embedding的区别
 - [x] gnome150 string similarity result record 
 
