@@ -19,14 +19,14 @@ python3 -m pip install https://github.com/shadowsocks/shadowsocks/archive/master
 sudo vi /etc/shadowsocks.json
 ```
 
-参考配置  521实验室配置
+参考配置：（具体实验室配置查看有道云笔记实验室配置）
 ```shell
 {
-    "server":"c16s2.jamjams.net",
+    "server":"server_ip",
     "local_address": "0.0.0.0",
     "local_port":1080,
-    "server_port":18630,
-    "password":"lvIJvCZwq2",
+    "server_port":服务代理端口,
+    "password":"代理服务密码",
     "timeout":500,
     "method":"aes-256-gcm",
     "fast_open":false
