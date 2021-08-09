@@ -2,30 +2,33 @@
 
 - learn_note
   - git_note：git笔记
-    - [git_basic](./learn_note/git_note/git_basic.md)
+    - [git_basic](./learn_note/git_note/git_basic.md)：git的一些基本使用
   - graph_note：图笔记
-    - [graph_embedding](./learn_note/graph_note/2_graph_embedding.md)
-    - [graph_neural_network](./learn_note/graph_note/3_graph_neural_network.md)
-    - [gnn_review](./learn_note/graph_note/gnn_review.md)
+    - [graph_embedding](./learn_note/graph_note/2_graph_embedding.md)：deepwalk,line,struc2vec,node2vec,SNDE
+    - [graph_neural_network](./learn_note/graph_note/3_graph_neural_network.md)：GCN,GAT,GraphSAGE
+    - [gnn_review](./learn_note/graph_note/gnn_review.md)：关于gnn的综述
   - linux_config：linux笔记
-    - [shadowsocks-config](./learn_note/linux_config/shadowsocks-config.md)
+    - [shadowsocks-config](./learn_note/linux_config/shadowsocks-config.md)：实验室翻墙配置，针对linux系统
   - python_note：python笔记
-    - [命令行参数](./learn_note/python_note/命令行参数.md)
-    - [django_basic](./learn_note/python_note/django_basic.md)
-    - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)
+    - [命令行参数](./learn_note/python_note/命令行参数.md)：TensorFlow tf.app以及python的argparse
+    - [django_basic](./learn_note/python_note/django_basic.md)：django的基本使用
+    - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)：矩阵压缩库
 
 - paper_md：论文笔记
   - graph：图的论文
     - [gnn综述.pdf](./paper_md/graph/gnn_review.pdf)
-    - [gnnPPT.pdf](./paper_md/graph/GNN-basic-powerpoint.pdf)
+    - [gnnPPT.pdf](./paper_md/graph/GNN-basic-powerpoint.pdf)：B站上的GNN学习ppt
   - paper_files：论文的文件
     - String_similarity
       - cobs-refs
-        - [pdf-bloofi.pdf](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
-        - [pdf-k-mer_review.pdf](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
+        - [bloofi.pdf](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
+        - [k-mer_review.pdf](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
         - [k-mer_review_Supplemental.pdf](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
       - [cobs.pdf](paper_md/paper_files/string_similarity/cobs.pdf)
   - string_similarity：字符串相似性论文
     - cobs-refs
       - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
     - [cobs](./paper_md/string_similarity/cobs.md)
+
+- project_related：项目的一些总结思考
+  - [tabel_detect](./project_related/table_detect.md)：文档版面识别与表格识别的总结与百度PP-Structure的基本测试
