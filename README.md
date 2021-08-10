@@ -12,6 +12,7 @@
   - python_note：python笔记
     - [命令行参数](./learn_note/python_note/命令行参数.md)：TensorFlow tf.app以及python的argparse
     - [django_basic](./learn_note/python_note/django_basic.md)：django的基本使用
+    - [flask_basic](./learn_note/python_note/flask_basic.md)：flask前后端分离的基本使用
     - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)：矩阵压缩库
 
 - paper_md：论文笔记
