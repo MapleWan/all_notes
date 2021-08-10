@@ -5,8 +5,7 @@
 这里主要介绍的使用flask编写json数据返回接口
 
 ```python
-from flask import Flask, json,request,jsonify, session
-from werkzeug.utils import redirect
+from flask import Flask, json,request,jsonify, session, redirect
 
 app = Flask(__name__)
 app.secret_key = "sasdasdasdas"   # 使用session需要设置session key
