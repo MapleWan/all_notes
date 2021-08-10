@@ -1,3 +1,9 @@
+直接pip安装`pip install flask`
+
+更多详情可以参照[flask中文文档](https://dormousehole.readthedocs.io/en/latest/)
+
+这里主要介绍的使用flask编写json数据返回接口
+
 ```python
 from flask import Flask, json,request,jsonify, session
 from werkzeug.utils import redirect
