@@ -8,6 +8,7 @@
     - [graph_neural_network](./learn_note/graph_note/3_graph_neural_network.md)：GCN,GAT,GraphSAGE
     - [gnn_review](./learn_note/graph_note/gnn_review.md)：关于gnn的综述
   - linux_config：linux笔记
+    - [nginx_basic](./learn_note/linux_config/nginx_basic.md)：将静态文件部署到ngnix
     - [shadowsocks-config](./learn_note/linux_config/shadowsocks-config.md)：实验室翻墙配置，针对linux系统
   - python_note：python笔记
     - [命令行参数](./learn_note/python_note/命令行参数.md)：TensorFlow tf.app以及python的argparse
