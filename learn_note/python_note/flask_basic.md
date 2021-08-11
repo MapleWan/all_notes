@@ -38,6 +38,7 @@ def test_json():
     my_age = myjson.get('age')
     my_age += 10
     return jsonify(name=my_name, age2 = my_age) # flask 打包json数据
+    #session["username].append("maple)
 
 app.run()
 # app.run(host="106.55.173.219")
