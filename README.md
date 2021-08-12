@@ -1,6 +1,9 @@
 **本库用于个人笔记记录，有直接截图保存他人博客，侵删**
 
 **[maple_todo](./todo.md)**
+
+**[奇思妙想](./thinking.md)**
+
 <hr>
 
 - learn_note
