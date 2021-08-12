@@ -73,6 +73,6 @@ sudo vi /etc/proxychains4.conf #将最后一行改为ss服务的本地端口即�
 ### chrome浏览器代理设置
 
 这里需要去系统设置，网络选项中设置对应的url
-![网络配置](../pics/linux-config/network-config.png)
+![网络配置](./pics/network-config.png)
 
 在这里配置了网络代理之后，全局的网络都会走这个代理。也就是会走全局模式，国内网站也会走这个代理。PAC模式的配置暂时没有找到解决办法

@@ -56,4 +56,4 @@ data = np.array([4, 5, 7, 9])
 coo_matrix((data, (row, col)), shape=(4, 4)).toarray()
 print(tmp)
 ```
-![sparse_demo](../pics/python/sparse_demo.png)
+![sparse_demo](./pics/sparse_demo.png)

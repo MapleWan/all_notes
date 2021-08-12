@@ -7,6 +7,9 @@
 <hr>
 
 - learn_note
+  - code_learn_李沐：[李沐《动手学习深度学习教程》](https://zh-v2.d2l.ai/)
+    - [1.符号](./learn_note/code_learn_李沐/1.符号.md)：涉及的符号表示
+    - 
   - git_note：git笔记
     - [git_basic](./learn_note/git_note/git_basic.md)：git的一些基本使用
   - graph_note：图笔记
