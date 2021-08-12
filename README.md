@@ -1,5 +1,8 @@
 **本库用于个人笔记记录，有直接截图保存他人博客，侵删**
 
+**[maple_todo](./todo.md)**
+<hr>
+
 - learn_note
   - git_note：git笔记
     - [git_basic](./learn_note/git_note/git_basic.md)：git的一些基本使用
@@ -34,3 +37,4 @@
 
 - project_related：项目的一些总结思考
   - [tabel_detect](./project_related/table_detect.md)：文档版面识别与表格识别的总结与百度PP-Structure的基本测试
+  - [use_paddle_text_direction](./project_related/use_paddle_text_direction.md)：尝试使用paddleocr对文本图片进行角度获取
