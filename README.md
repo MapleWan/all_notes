@@ -9,7 +9,12 @@
 - learn_note
   - code_learn_李沐：[李沐《动手学习深度学习教程》](https://zh-v2.d2l.ai/)
     - [1.符号](./learn_note/code_learn_李沐/1.符号.md)：涉及的符号表示
-    - 
+    - [2.基本知识](./learn_note/code_learn_李沐/2.基本知识.ipynb)：基本运算，广播...
+    - [3.数据预处理](./learn_note/code_learn_李沐/3.数据预处理.ipynb)：pandas的基本使用
+    - [4.线性代数](./learn_note/code_learn_李沐/4.线性代数.ipynb)：线性代数的一些基本问题
+    - [5.微分](./learn_note/code_learn_李沐/5.微分.ipynb)：导数与微分，梯度，链式法则
+    - [6.自动求导](./learn_note/code_learn_李沐/6.自动求导.ipynb)：自动求导的过程
+    - [7.概率](./learn_note/code_learn_李沐/7.概率.ipynb)：概率论的一些基本问题
   - git_note：git笔记
     - [git_basic](./learn_note/git_note/git_basic.md)：git的一些基本使用
   - graph_note：图笔记
