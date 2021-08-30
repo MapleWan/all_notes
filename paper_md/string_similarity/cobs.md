@@ -70,13 +70,13 @@ k-mers理解为将字符串解析为set存储。具体"abcdef"字符串的3-mers
 
 ## bloom fliter
 
-![blomm-filter](../pics/string-smilarity/cobs/blomm-filter.png)
+![blomm-filter](./pics/blomm-filter.png)
 
 ## <span id="sbtandbigsi">SBT & BIGSI</span>
 
-![sbtandbigsi](../pics/string-smilarity/cobs/sbtandbigsi.png)
+![sbtandbigsi](./pics/sbtandbigsi.png)
 
 ## <span id="SBTPROCESS">SBT改进方法</span>
 
-![SBTPROCESS](../pics/string-smilarity/cobs/SBTPROCESS.png)
+![SBTPROCESS](./pics/SBTPROCESS.png)
 绿色标记的位表示在子树中拥有相同值的节点，det用来标记这些位的位置，how用来记录这些位的具体值。
