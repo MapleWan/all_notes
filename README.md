@@ -29,6 +29,8 @@
     - [django_basic](./learn_note/python_note/django_basic.md)：django的基本使用
     - [flask_basic](./learn_note/python_note/flask_basic.md)：flask前后端分离的基本使用
     - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)：矩阵压缩库
+  - java_path：java学习路线
+    - [1 basic](./learn_note/java_path/1%20basic.md)：java的一些基础语法增强
 
 - paper_md：论文笔记
   - graph：图的论文
@@ -41,10 +43,14 @@
         - [k-mer_review.pdf](./paper_md/paper_files/string_similarity/cobs-refs/k-mer_review.pdf)
         - [k-mer_review_Supplemental.pdf](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
       - [cobs.pdf](paper_md/paper_files/string_similarity/cobs.pdf)
+    - table_recognition
+      - [EDD.pdf](./paper_md/paper_files/table_recognition/EDD.pdfD)
   - string_similarity：字符串相似性论文
     - cobs-refs
       - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
     - [cobs](./paper_md/string_similarity/cobs.md)
+  - table_recognition：表格识别的相关论文
+    - [EDD](./paper_md/table_recognition/EDD.md)
 
 - project_related：项目的一些总结思考
   - [tabel_detect](./project_related/table_detect.md)：文档版面识别与表格识别的总结与百度PP-Structure的基本测试
