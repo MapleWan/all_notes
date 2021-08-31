@@ -8,8 +8,9 @@
 
 - <details open><summary>learn_note</summary>
   
-  - <details><summary>code_learn_李沐：[李沐《动手学习深度学习教程》](https://zh-v2.d2l.ai/)</summary>
+  - <details><summary>code_learn_李沐</summary>
   
+    [李沐《动手学习深度学习教程》](https://zh-v2.d2l.ai/)
     - [d2l-zh-pytorch](./learn_note/code_learn_李沐/d2l-zh-pytorch.pdf)：pdf文档
     - [1.符号](./learn_note/code_learn_李沐/1.符号.md)：涉及的符号表示
   
@@ -86,6 +87,7 @@
 
   - <details><summary>table_recognition：表格识别的相关论文</summary>
     
+    - [A Constraint-based Approach to Table Structure Derivation](./paper_md/table_recognition/A%20Constraint-based%20Approach%20to%20Table%20Structure%20Derivation.md)
     - [EDD](./paper_md/table_recognition/EDD.md)
     - [readme](./paper_md/table_recognition/readme.md)
     
