@@ -83,10 +83,9 @@
 
   - <details><summary>table_recognition：表格识别的相关论文</summary>
     - [EDD](./paper_md/table_recognition/EDD.md)
-
     </details>
-    </details>
-
+  </details>
+  
 - <details open><summary>project_related：项目的一些总结思考</summary>
 
   - [tabel_detect](./project_related/table_detect.md)：文档版面识别与表格识别的总结与百度PP-Structure的基本测试
