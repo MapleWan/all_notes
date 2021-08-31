@@ -20,6 +20,7 @@
     - [git_basic](./learn_note/git_note/git_basic.md)：git的一些基本使用
     
     </details>
+
   - <details><summary>graph_note：图笔记</summary>
     
     - [graph_embedding](./learn_note/graph_note/2_graph_embedding.md)：deepwalk,line,struc2vec,node2vec,SNDE
@@ -63,6 +64,7 @@
     </details>
 
   - <details><summary>paper_files：论文的文件</summary>
+    
     - String_similarity
       - cobs-refs
         - [bloofi.pdf](./paper_md/paper_files/string_similarity/cobs-refs/bloofi.pdf)
@@ -75,6 +77,7 @@
     </details>
 
   - <details><summary>string_similarity：字符串相似性论文</summary>
+    
     - cobs-refs
       - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
     - [cobs](./paper_md/string_similarity/cobs.md)
@@ -82,7 +85,10 @@
     </details>
 
   - <details><summary>table_recognition：表格识别的相关论文</summary>
+    
     - [EDD](./paper_md/table_recognition/EDD.md)
+    - [readme](./paper_md/table_recognition/readme.md)
+    
     </details>
   </details>
   
