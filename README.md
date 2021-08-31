@@ -30,6 +30,7 @@
     - [flask_basic](./learn_note/python_note/flask_basic.md)：flask前后端分离的基本使用
     - [scipy_sparse](./learn_note/python_note/scipy_sparse库.md)：矩阵压缩库
   - java_path：java学习路线
+    - [java_path_xmind](./learn_note/java_path/鱼皮%20-%20Java%20学习路线导图.xmind)：程序员鱼皮java学习路径
     - [1 basic](./learn_note/java_path/1%20basic.md)：java的一些基础语法增强
 
 - paper_md：论文笔记
