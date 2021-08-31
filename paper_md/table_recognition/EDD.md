@@ -27,6 +27,10 @@ PubTabNet数据的自动化生成（针对PubTabNet原始数据的处理）
 
 FCN、Faster-RCNN、Mask-RCNN、YOLO等工作在“目标检测”方面对表格进行检测。同时也有使用图神经网络[7,29-31]的将文档图片编码成图来进行表格的检测与结构识别工作。
 
+EDD模型架构如下图
+
+![EDD_architecture](./pics/EDD_architecture.png)
+
 
 # 附录
 
