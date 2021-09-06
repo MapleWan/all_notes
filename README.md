@@ -52,6 +52,12 @@
     - [1 basic](./learn_note/java_path/1%20basic.md)：java的一些基础语法增强
 
     </details>
+
+  - <details><summary>Algorithm_practice：leetcode刷题汇总</summary>
+  
+    - [字符串](./learn_note/Algorithm_practice/字符串.md)：字符串处理的一些题目
+    - [链表](./learn_note/Algorithm_practice/链表.md)：链表相关的题目
+    </details>
   
   </details>
 
