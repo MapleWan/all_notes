@@ -57,6 +57,7 @@
   
     - [字符串](./learn_note/Algorithm_practice/字符串.md)：字符串处理的一些题目
     - [链表](./learn_note/Algorithm_practice/链表.md)：链表相关的题目
+    - [栈与队列](./learn_note/Algorithm_practice/栈与队列.md）：栈与队列相关题目
     </details>
   
   </details>
@@ -91,7 +92,7 @@
   
     </details>
 
-  - <details><summary>table_recognition：表格识别的相关论文</summary>
+  - <details><summary>table_idea：表格识别的相关论文</summary>
     
     - [A Constraint-based Approach to Table Structure Derivation](./paper_md/table_recognition/A%20Constraint-based%20Approach%20to%20Table%20Structure%20Derivation.md)
     - [EDD](./paper_md/table_recognition/EDD.md)
