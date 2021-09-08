@@ -57,7 +57,7 @@
   
     - [字符串](./learn_note/Algorithm_practice/字符串.md)：字符串处理的一些题目
     - [链表](./learn_note/Algorithm_practice/链表.md)：链表相关的题目
-    - [栈与队列](./learn_note/Algorithm_practice/栈与队列.md）：栈与队列相关题目
+    - [栈与队列](./learn_note/Algorithm_practice/栈与队列.md)：栈与队列相关题目
     </details>
   
   </details>
