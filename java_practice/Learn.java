@@ -1,5 +1,6 @@
 package java_practice;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class Learn{
@@ -27,16 +28,13 @@ public class Learn{
     // 输入: 1->2->3->4->5->NULL
     // 输出: 5->4->3->2->1->NULL
     public static ListNode reverseList(ListNode head) {
-        Stack<ListNode> stack_listNode = new Stack<>();
+        ArrayList<ListNode> array_listNode = new ArrayList<>();
         ListNode res;
         while(head != null){
-            stack_listNode.add(head);
+            array_listNode.add(head);
             head = head.next;
         }
-        res = stack_listNode.pop();
-        while(stack_listNode != null){
-            stack_listNode
-        }
+        while(array_listNode.nex)        
 
         return res;
     }
