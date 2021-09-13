@@ -17,8 +17,14 @@ public class Learn{
         l4.next = l5;
         l5.next = null;
 
-        ListNode head = l1;
+        ListNode head;
 
+        head = reverseList(l1);
+
+        while(head != null){
+            System.out.println(head.val);
+            head = head.next;
+        }
         
 
 
@@ -27,18 +33,25 @@ public class Learn{
     // 输入: 1->2->3->4->5->NULL
     // 输出: 5->4->3->2->1->NULL
     public static ListNode reverseList(ListNode head) {
-        Stack<ListNode> stack_listNode = new Stack<>();
-        ListNode res;
-        while(head != null){
-            stack_listNode.add(head);
-            head = head.next;
-        }
-        res = stack_listNode.pop();
-        while(stack_listNode != null){
-            stack_listNode
+        ListNode current = head;
+        ListNode left = null;
+        while(current != null){
+            ListNode next = current.next;
+            current.next = left;
+            left = current;
+            current = next;
         }
 
-        return res;
+        return left;
+
+        // 递归实现
+        // if (head == null || head.next == null) {
+        //     return head;
+        // }
+        // ListNode newHead = reverseList(head.next);
+        // head.next.next = head;
+        // head.next = null;
+        // return newHead;
     }
 }
 
