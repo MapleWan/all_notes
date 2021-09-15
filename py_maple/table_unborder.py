@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import csv
 
 def recognize_structure(img):
-    #tess.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 
     #print(img.shape)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -14,49 +13,24 @@ def recognize_structure(img):
     #print("img_height", img_height, "img_width", img_width)
 
     # thresholding the image to a binary image
-    # thresh, img_bin = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
-    img_bin = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 5, 5)
+    thresh, img_bin = cv2.threshold(img, 180, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+    #img_bin = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 5, 5)
 
-    # inverting the image
-    img_bin = 255 - img_bin
-    # Plotting the image to see the output
+    #img_median = cv2.medianBlur(img_bin, 3)
+    img_median = img_bin
+  
+    ver_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, img_height*2)) #shape (kernel_len, 1) inverted! xD
+    vertical_lines = cv2.erode(img_median, ver_kernel, iterations=1)
+    cv2.imwrite("竖线.jpg", vertical_lines)
 
-    # countcol(width) of kernel as 100th of total width
-    # kernel_len = np.array(img).shape[1] // 100
-    kernel_len_ver = img_height // 50
-    kernel_len_hor = img_width // 50
-    # Defining a vertical kernel to detect all vertical lines of image
-    ver_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_len_ver))  # shape (kernel_len, 1) inverted! xD
-    print("ver", ver_kernel)
-    print(ver_kernel.shape)
-
-    # Defining a horizontal kernel to detect all horizontal lines of image
-    hor_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (kernel_len_hor, 1))  # shape (1,kernel_ken) xD
-    
-    
-    print("hor", hor_kernel)
-    print(hor_kernel.shape)
+    hor_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (img_width*2, 9)) #shape (kernel_len, 1) inverted! xD
+    horizontal_lines = cv2.erode(img_median, hor_kernel, iterations=1)
+    cv2.imwrite("直线.jpg", horizontal_lines)
 
     # A kernel of 2x2
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
     #print(kernel)
     #print(kernel.shape)
-
-    # Use vertical kernel to detect and save the vertical lines in a jpg
-    image_1 = cv2.erode(img_bin, ver_kernel, iterations=3)
-    vertical_lines = cv2.dilate(image_1, ver_kernel, iterations=4)
-    # Plot the generated image
-    cv2.imwrite("竖线.jpg", vertical_lines)
-    # cv2.waitKey(0)
-
-
-    # Use horizontal kernel to detect and save the horizontal lines in a jpg
-    image_2 = cv2.erode(img_bin, hor_kernel, iterations=3)
-    horizontal_lines = cv2.dilate(image_2, hor_kernel, iterations=4)
-    cv2.imwrite("直线.jpg", horizontal_lines)
-    # cv2.waitKey(0)
-
-
 
     # Combine horizontal and vertical lines in a new third image, with both having same weight.
     img_vh = cv2.addWeighted(vertical_lines, 0.5, horizontal_lines, 0.5, 0.0)
@@ -64,17 +38,14 @@ def recognize_structure(img):
     # Eroding and thesholding the image
     img_vh = cv2.erode(~img_vh, kernel, iterations=2)
     cv2.imwrite("竖直线.jpg", img_vh)
-    # cv2.waitKey(0)
-
-
 
     thresh, img_vh = cv2.threshold(img_vh, 128, 255, cv2.THRESH_BINARY )
     cv2.imwrite("二值化竖直线.jpg", img_vh)
-  
+
     bitxor = cv2.bitwise_xor(img, img_vh)
     bitnot = cv2.bitwise_not(bitxor)
+    cv2.imshow("bitnot", bitnot)
     # Plotting the generated image
-    cv2.imshow("bitnot",bitnot)
 
     # Detect contours for following box detection
     contours, hierarchy = cv2.findContours(img_vh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -118,12 +89,10 @@ def recognize_structure(img):
     #print("lencontours", len(contours))
     for c in contours:
         x, y, w, h = cv2.boundingRect(c)
-        print("x", x, "y", y, "w", w, "h", h)
+        #print("x", x, "y", y, "w", w, "h", h)
         if (w < 0.9*img_width and h < 0.9*img_height):
             image = cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
             box.append([x, y, w, h])
-
-    cv2.imshow("image", image)
 
     # Creating two lists to define row and column in which cell is located
     row = []
@@ -159,7 +128,7 @@ def recognize_structure(img):
     index = 0
     for i in range(len(row)):
         current = len(row[i])
-        print("len",len(row[i]))
+        #print("len",len(row[i]))
         if current > countcol:
             countcol = current
             index = i
@@ -188,9 +157,10 @@ def recognize_structure(img):
             lis[indexing].append(row[i][j])
         finalboxes.append(lis)
 
-    return finalboxes, img_bin
+    return finalboxes, bitnot
 
-img = cv2.imread("./bordered_example.png")
+# img = cv2.imread("./5.jpg")
+img = cv2.imread("./unbordered_example.jpg")
 boxes, img_processed = recognize_structure(img)
 cv2.imshow("result",img_processed)
 cv2.waitKey(0)

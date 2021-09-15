@@ -107,3 +107,9 @@
   - [use_paddle_text_direction](./project_related/use_paddle_text_direction.md)：尝试使用paddleocr对文本图片进行角度获取
 
  </details>
+
+- <details open><summary>lab_reporter：实验室报告</summary>
+
+  - [20210914](./lab_reporter/20210914.md)：关于表格识别的一些调研
+
+  </details>
