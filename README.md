@@ -80,23 +80,23 @@
         - [k-mer_review_Supplemental.pdf](paper_md/paper_files/string_similarity/cobs-refs/k-mer_Supplemental.pdf)
       - [cobs.pdf](paper_md/paper_files/string_similarity/cobs.pdf)
     - table_recognition
-      - [EDD.pdf](./paper_md/paper_files/table_recognition/EDD.pdfD)
+      - [EDD.pdf](./paper_md/paper_files/table_recognition/EDD.pdf)
   
     </details>
 
   - <details><summary>string_similarity：字符串相似性论文</summary>
     
     - cobs-refs
-      - [bloofi](./paper_md/string_similarity/cobs-refs/bloofi.md)
-    - [cobs](./paper_md/string_similarity/cobs.md)
+      - [bloofi](paper_md/string_similarity/cobs-refs/bloofi.md)
+    - [cobs](paper_md/string_similarity/cobs.md)
   
     </details>
 
   - <details><summary>table_idea：表格识别的相关论文</summary>
     
-    - [A Constraint-based Approach to Table Structure Derivation](./paper_md/table_recognition/A%20Constraint-based%20Approach%20to%20Table%20Structure%20Derivation.md)
-    - [EDD](./paper_md/table_recognition/EDD.md)
-    - [readme](./paper_md/table_recognition/readme.md)
+    - [A Constraint-based Approach to Table Structure Derivation](./paper_md/table_idea/A%20Constraint-based%20Approach%20to%20Table%20Structure%20Derivation.md)
+    - [EDD](./paper_md/table_idea/EDD.md)
+    - [readme](./paper_md/table_idea/readme.md)
     
     </details>
   </details>
