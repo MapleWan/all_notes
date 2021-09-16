@@ -6,7 +6,13 @@
 - table_about
   - td
     - Table Detection in Invoice Documents by Graph Neural Networks（下面是在paperwithcode查找论文代码的时候查到的论文）
-      - Table understanding in structured documents：涉及表格的检测与提取
+      - （*）Table understanding in structured documents「[code](https://github.com/Darthholi/similarity-models)」(涉及表格的检测与提取)
+    - Parameter-Free Table Detection Method
   - tr
     - Deep Splitting and Merging for Table Structure Decomposition
+    - （*）Rethinking Table Recognition using Graph Neural Networks 「[code](https://github.com/shahrukhqasim/TIES-2.0/)」
   - both
+    - （*）TableNet: Deep Learning model for end-to-end Table detection and Tabular data extraction from Scanned Document Images「[code](https://github.com/tomassosorio/OCR_tablenet)」
+- document_image_information_extraction
+  - Integrating Coordinates with Context for Information Extraction in Document
+Images（从文档图片中提取信息，是否对未来的项目有帮助）
