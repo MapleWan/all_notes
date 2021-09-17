@@ -2,17 +2,31 @@
   - Document Binarization via Multi-resolutional Attention Model with DRD Loss：文档图片的二值化研究（可用于老旧文档）
   - Graphical Object Detection in Document Images：图档的版面分析（图档内内容的定位）
   - Learning 2D Morphological Network for Old Document Image Binarization：文档图片的二值化研究（可用于老旧文档）
-  - 
+  - Cascading Modular U-Nets for Document Image Binarization：文档图片的二值化研究（可用于老旧文档）
+  - Binarization of Degraded Document Images using Convolutional Neural Networks Based on Predicted Two-Channel Images：文档图片的二值化研究
+  - A Quality and Time Assessment of Binarization Algorithms（二值化算法的一个研究）
+  - Blind Source Separation Based Framework for Multispectral Document Images Binarization：图档的二值化研究
 - table_about
   - td
     - Table Detection in Invoice Documents by Graph Neural Networks（下面是在paperwithcode查找论文代码的时候查到的论文）
       - （*）Table understanding in structured documents「[code](https://github.com/Darthholi/similarity-models)」(涉及表格的检测与提取)
     - Parameter-Free Table Detection Method
+    - A GAN-Based Feature Generator for Table Detection（GAN这部分不涉及）
+    - A YOLO-based Table Detection Method
   - tr
     - Deep Splitting and Merging for Table Structure Decomposition
     - （*）Rethinking Table Recognition using Graph Neural Networks 「[code](https://github.com/shahrukhqasim/TIES-2.0/)」
+    - Rethinking Semantic Segmentation for Table Structure Recognition in Documents
+    - ReS2TIM: Reconstruct Syntactic Structures from Table Images
+    - A Genetic-Based Search for Adaptive Table Recognition in Spreadsheets
+    - Table Structure Extraction with Bi-directional Gated Recurrent Unit Networks
+    - DeepTabStR: Deep Learning based Table Structure Recognition
   - both
     - （*）TableNet: Deep Learning model for end-to-end Table detection and Tabular data extraction from Scanned Document Images「[code](https://github.com/tomassosorio/OCR_tablenet)」
+   
+  - dataset
+    - DECO: A Dataset of Annotated Spreadsheets for Layout and Table Recognition（[link](https://wwwdb.inf.tu-dresden.de/research-projects/deexcelarator/)）
 - document_image_information_extraction
-  - Integrating Coordinates with Context for Information Extraction in Document
-Images（从文档图片中提取信息，是否对未来的项目有帮助）
+  - Integrating Coordinates with Context for Information Extraction in Document Images（从文档图片中提取信息，是否对未来的项目有帮助）
+  - Page Segmentation using a Convolutional Neural Network with Trainable Co-Occurrence Features（图档的版面分析）
+  - DoT-Net: Document Layout Classification Using Texture-Based CNN：（图档的版面分析）
