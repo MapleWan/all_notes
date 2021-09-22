@@ -99,7 +99,7 @@
     - [readme](./paper_md/table_idea/readme.md)
     
     </details>
-  </details>
+    </details>
   
 - <details open><summary>project_related：项目的一些总结思考</summary>
 
